@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 40vw;
+    margin: 2em auto;
+}
+
+.header-section {
+    background-color: #6943FF;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-section h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin:  0 0 1em 0;
+}
+
+.header-section .input-el {
+    width: 2em;
+    text-align: center;
+    align-items: center;
+    padding: 0.6em;
+    font-size: 2.5rem;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: transparent;
+    outline: none;
+    font-weight: bold;
+
+}
+
+.input-el::placeholder{
+    color: #ffffff93;
+}
+
+.header-section .btn {
+    margin-top: 1em;
+    padding: 1em 4em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+/*Content Section start*/
+.content-section {
+    text-align: center;
+    padding: 1em 1em;
+    background-color: #1F2937;
+}
+
+.content-section > div{
+    background-color: #273549;
+    margin: 1em;
+    padding: 1em 2em;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #CCC1FF;
+}
+
+.content-section > div > p {
+    color: #ffffff;
+} 
